@@ -814,8 +814,8 @@ MoveAnything_UseCharacterSettings = nil
 
 StaticPopupDialogs["MOVEANYTHING_RESET_PROFILE_CONFIRM"] = {
 	text = MOVANY.PROFILE_RESET_CONFIRM,
-	button1 = TEXT(YES),
-	button2 = TEXT(NO),
+	button1 = "YES",
+	button2 = "NO",
 	OnAccept = function()
 		MovAny:ResetProfile()
 	end,
@@ -828,8 +828,8 @@ StaticPopupDialogs["MOVEANYTHING_RESET_PROFILE_CONFIRM"] = {
 
 StaticPopupDialogs["MOVEANYTHING_RESET_ALL_CONFIRM"] = {
 	text = MOVANY.RESET_ALL_CONFIRM,
-	button1 = TEXT(YES),
-	button2 = TEXT(NO),
+	button1 = "YES",
+	button2 = "NO",
 	OnAccept = function()
 		MovAny:ResetAllFrames()
 		MovAny_OptionsOnShow()
